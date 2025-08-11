@@ -13,3 +13,6 @@ CREATE TABLE sensor_data_table (
     'scan.stream.initpos' = 'TRIM_HORIZON',
     'format' = 'json'
 );
+
+%flink.ssql
+SELECT * FROM sensor_data_table;
